@@ -24,7 +24,7 @@ X = [ones(m, 1) X];
 
 a1 = X;
 
-z2 = a1 * Theta1';
+z2 = a1 .* Theta1';
 a2 = [ones(m,1), sigmoid(z2)];
 
 z3 = a2 * Theta2';
